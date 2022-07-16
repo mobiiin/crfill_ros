@@ -1,4 +1,4 @@
-python demo.py \
+python3 demo.py \
 	--name objrmv \
 	--dataset_mode testimage \
 	--model inpaint \

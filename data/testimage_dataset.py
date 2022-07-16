@@ -9,11 +9,11 @@ import os
 class TestImageDataset(BaseDataset):
     @staticmethod
     def modify_commandline_options(parser, is_train):
-        parser.add_argument('--image_dir', type=str, required=True,
+        parser.add_argument('--image_dir', type=str,
                             help='path to the directory that contains photo images')
-        parser.add_argument('--mask_dir', type=str, required=True,
+        parser.add_argument('--mask_dir', type=str,
                             help='path to the directory that contains photo images')
-        parser.add_argument('--output_dir', type=str, required=True,
+        parser.add_argument('--output_dir', type=str,
                             help='path to the directory that contains photo images')
         return parser
 
